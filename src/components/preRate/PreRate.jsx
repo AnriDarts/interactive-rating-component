@@ -9,7 +9,10 @@ const PreRate = ({ rate, setRate, setDone }) => {
     <div className="preRate">
       <div className="wrapper">
         <div className="logo">
-          <img src="../../../public/icon-star.svg" alt="star icon" />
+          <img
+            src="https://github.com/AnriDarts/interactive-rating-component/blob/main/public/icon-star.svg"
+            alt="star icon"
+          />
         </div>
         <div className="description">
           <div className="main">How did we do?</div>
