@@ -7,10 +7,7 @@ const PostRate = ({ rate }) => {
     <div className="post-rate">
       <div className="wrapper">
         <div className="logo">
-          <img
-            src="https://github.com/AnriDarts/interactive-rating-component/blob/main/public/illustration-thank-you.svg"
-            alt=""
-          />
+          <img src="/illustration-thank-you.svg" alt="" />
         </div>
 
         <div className="you-rate">You selected {rate} out of 5</div>
