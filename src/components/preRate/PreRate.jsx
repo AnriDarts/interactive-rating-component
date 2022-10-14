@@ -9,7 +9,7 @@ const PreRate = ({ rate, setRate, setDone }) => {
     <div className="preRate">
       <div className="wrapper">
         <div className="logo">
-          <img src="/icon-star.svg" alt="star icon" />
+          <img src="/images/icon-star.svg" alt="star icon" />
         </div>
         <div className="description">
           <div className="main">How did we do?</div>
