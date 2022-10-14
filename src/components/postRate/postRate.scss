@@ -1,0 +1,92 @@
+.post-rate {
+  width: 100%;
+  height: 100%;
+  .wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    .you-rate {
+      background: #262e38;
+      border-radius: 22.5px;
+
+      width: 193px;
+      height: 32px;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+
+      font-family: "Overpass";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 24px;
+      padding-top: 5px;
+      /* identical to box height, or 160% */
+
+      text-align: center;
+
+      /* Orange */
+
+      color: #fc7614;
+    }
+
+    .message-text {
+      .main {
+        font-family: "Overpass";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 35px;
+
+        padding-bottom: 10px;
+
+        color: #ffffff;
+      }
+      .sub {
+        font-family: "Overpass";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 24px;
+        /* or 160% */
+
+        text-align: center;
+
+        /* Light Grey */
+
+        color: #969fad;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 376px) {
+  .wrapper {
+    .you-rate {
+      width: 168px;
+      height: 32px;
+    }
+
+    .message-text {
+      .main {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 30px;
+      }
+
+      .sub {
+        width: 279px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+        overflow-wrap: break-word;
+      }
+    }
+  }
+}

@@ -1,0 +1,185 @@
+.preRate {
+  width: 100%;
+  height: 100%;
+
+  .wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    .submit {
+      width: 341px;
+      height: 48px;
+
+      background: #fc7614;
+      border-radius: 22.5px;
+
+      border: none;
+      outline: none;
+
+      font-family: "Overpass";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 15px;
+      line-height: 19px;
+      letter-spacing: 2px;
+
+      color: #ffffff;
+
+      cursor: pointer;
+
+      &:hover {
+        color: #fc7614;
+        background: #ffffff;
+      }
+    }
+
+    .logo {
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      background: #262e38;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      align-self: flex-start;
+      margin-left: 32px;
+
+      img {
+        width: 16.75px;
+        height: 16px;
+      }
+    }
+
+    .description {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      text-align: left;
+      width: 341px;
+
+      .main {
+        font-family: "Overpass";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 35px;
+
+        /* Pure White */
+
+        color: #ffffff;
+
+        margin-bottom: 10px;
+      }
+      .sub {
+        font-family: "Overpass";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 24px;
+        /* or 160% */
+
+        /* Light Grey */
+
+        color: #969fad;
+
+        width: 340px;
+        height: 72px;
+      }
+    }
+
+    .options {
+      width: 341px;
+      display: flex;
+      justify-content: space-between;
+      .option {
+        background: #262e38;
+        width: 51px;
+        height: 51px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        font-family: "Overpass";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        /* identical to box height, or 150% */
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        letter-spacing: 0.2px;
+
+        /* Medium Gray */
+
+        color: #7c8798;
+        cursor: pointer;
+
+        &.active {
+          background: #7c8798;
+          color: #ffffff;
+
+          &:hover {
+            background: #7c8798;
+          }
+        }
+
+        &:hover {
+          background: #fc7614;
+          color: #ffffff;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 376px) {
+  .preRate {
+    .wrapper {
+      .submit {
+        width: 279px;
+        height: 45px;
+      }
+
+      .logo {
+        width: 40px;
+        height: 40px;
+
+        margin-left: 24px;
+      }
+
+      .description {
+        width: 279px;
+
+        .main {
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 30px;
+        }
+
+        .sub {
+          width: 279px;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 22px;
+          overflow-wrap: break-word;
+        }
+      }
+
+      .options {
+        width: 279px;
+
+        .option {
+          width: 42px;
+          height: 42px;
+        }
+      }
+    }
+  }
+}
