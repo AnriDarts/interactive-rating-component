@@ -7,7 +7,7 @@ const PostRate = ({ rate }) => {
     <div className="post-rate">
       <div className="wrapper">
         <div className="logo">
-          <img src="/illustration-thank-you.svg" alt="" />
+          <img src="../../../public/illustration-thank-you.svg" alt="" />
         </div>
 
         <div className="you-rate">You selected {rate} out of 5</div>
