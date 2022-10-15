@@ -1,4 +1,5 @@
 import "./postRate.scss";
+import illustration from "../images/illustration-thank-you.svg";
 
 import React from "react";
 
@@ -7,7 +8,7 @@ const PostRate = ({ rate }) => {
     <div className="post-rate">
       <div className="wrapper">
         <div className="logo">
-          <img src="/images/illustration-thank-you.svg" alt="" />
+          <img src={illustration} alt="" />
         </div>
 
         <div className="you-rate">You selected {rate} out of 5</div>

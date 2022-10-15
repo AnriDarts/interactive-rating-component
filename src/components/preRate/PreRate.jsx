@@ -1,6 +1,7 @@
 import "./preRate.scss";
 
 import React from "react";
+import star from "../images/icon-star.svg";
 
 const PreRate = ({ rate, setRate, setDone }) => {
   const options = [1, 2, 3, 4, 5];
@@ -9,7 +10,7 @@ const PreRate = ({ rate, setRate, setDone }) => {
     <div className="preRate">
       <div className="wrapper">
         <div className="logo">
-          <img src="/images/icon-star.svg" alt="star icon" />
+          <img src={star} alt="star icon" />
         </div>
         <div className="description">
           <div className="main">How did we do?</div>
